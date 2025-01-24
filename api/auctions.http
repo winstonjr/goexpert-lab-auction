@@ -1,4 +1,4 @@
-### Create Auction
+### Criação de Leilão
 POST http://localhost:8080/auction HTTP/1.1
 Host: localhost:8000
 Content-Type: application/json
@@ -10,85 +10,12 @@ Content-Type: application/json
   "condition": 2
 }
 
-### Create Auction
-POST http://localhost:8080/auction HTTP/1.1
-Host: localhost:8000
-Content-Type: application/json
-
-{
-  "product_name":"PROD2",
-  "category": "CAT1",
-  "description": "Essa é uma boa descrição para o produto 2",
-  "condition": 1
-}
-
-### Create Auction
-POST http://localhost:8080/auction HTTP/1.1
-Host: localhost:8000
-Content-Type: application/json
-
-{
-  "product_name":"PROD3",
-  "category": "CAT1",
-  "description": "Essa é uma boa descrição para o produto 3",
-  "condition": 2
-}
-
-### Create Auction
-POST http://localhost:8080/auction HTTP/1.1
-Host: localhost:8000
-Content-Type: application/json
-
-{
-  "product_name":"PROD4",
-  "category": "CAT2",
-  "description": "Essa é uma boa descrição para o produto 4",
-  "condition": 2
-}
-
-### Find Active Auctions
+### Buscar Leilões Ativos
 GET http://localhost:8080/auction?status=0
 Host: localhost:8080
 Content-Type: application/json
 
-### Find New Category Auctions
-GET http://localhost:8080/auction?status=0&category=CAT2
-Host: localhost:8080
-Content-Type: application/json
-
-### Find New Category Auctions
-GET http://localhost:8080/auction?status=0&productName=PROD1
-Host: localhost:8080
-Content-Type: application/json
-
-### Find New Category Auctions
-GET http://localhost:8080/auction/25e0c157-02c0-42ae-a4a4-601c627763fa
-Host: localhost:8080
-Content-Type: application/json
-
-### Create Bid
-POST http://localhost:8080/bid HTTP/1.1
-Host: localhost:8000
-Content-Type: application/json
-
-{
-  "user_id":"07fb7587-b09b-48b3-bd04-0f88d434c094",
-  "auction_id": "25e0c157-02c0-42ae-a4a4-601c627763fa",
-  "amount": 20.57
-}
-
-### Create Bid
-POST http://localhost:8080/bid HTTP/1.1
-Host: localhost:8000
-Content-Type: application/json
-
-{
-  "user_id":"4b44897e-7a6d-497a-87d3-2887ee991777",
-  "auction_id": "25e0c157-02c0-42ae-a4a4-601c627763fa",
-  "amount": 20.58
-}
-
-### Find New Category Auctions
-GET http://localhost:8080/auction/winner/25e0c157-02c0-42ae-a4a4-601c627763fa
+### Buscar Leilões Inativos
+GET http://localhost:8080/auction?status=0
 Host: localhost:8080
 Content-Type: application/json
