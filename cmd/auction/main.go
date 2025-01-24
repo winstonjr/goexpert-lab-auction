@@ -22,8 +22,10 @@ func main() {
 	ctx := context.Background()
 
 	if err := godotenv.Load("cmd/auction/.env"); err != nil {
-		log.Fatal("Error trying to load env variables")
-		return
+		if err := godotenv.Load(".env"); err != nil {
+			log.Fatal("Error trying to load env variables")
+			return
+		}
 	}
 
 	databaseConnection, err := mongodb.NewMongoDBConnection(ctx)
