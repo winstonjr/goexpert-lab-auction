@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5ff00812-49a7-42db-ba1e-440677ac1f9b" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///opt/homebrew/Cellar/go/1.23.0/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2s4TjaPGTKJyWdzifYKSllNMNWs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;HTTP Request.auctions | Create Auction#1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.auctions | Create Auction#2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.auctions | Create Auction#3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.auctions | Create Auction#4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.auctions | Find Active Auctions.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.auctions | Find New Category Auctions#1.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/winston/projects/goexpert-lab-auction&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
+    ]
+  }
+}</component>
+  <component name="RunManager" selected="HTTP Request.auctions | Find New Category Auctions#1">
+    <configuration name="auctions | Create Auction#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/auctions.http" index="2" requestIdentifier="Create Auction#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="auctions | Create Auction#3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/auctions.http" index="3" requestIdentifier="Create Auction#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="auctions | Create Auction#4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/auctions.http" index="4" requestIdentifier="Create Auction#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="auctions | Find Active Auctions" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/auctions.http" index="5" requestIdentifier="Find Active Auctions" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="auctions | Find New Category Auctions#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$PROJECT_DIR$/api/auctions.http" index="6" requestIdentifier="Find New Category Auctions#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.auctions | Find New Category Auctions#1" />
+        <item itemvalue="HTTP Request.auctions | Find Active Auctions" />
+        <item itemvalue="HTTP Request.auctions | Create Auction#4" />
+        <item itemvalue="HTTP Request.auctions | Create Auction#3" />
+        <item itemvalue="HTTP Request.auctions | Create Auction#2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-5df93f7ad4aa-dfc284eb1eb8-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-242.20224.424" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-GO-242.20224.424" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
